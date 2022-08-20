@@ -133,7 +133,7 @@ GameObject:
   m_Component:
   - component: {fileID: 176742505}
   m_Layer: 0
-  m_Name: pointGeneration4
+  m_Name: SpawnPoint4
   m_TagString: Untagged
   m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -147,7 +147,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 176742504}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 9.7, y: 4, z: 10.89}
+  m_LocalPosition: {x: 11.25, y: 4, z: 25.56}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -164,7 +164,7 @@ GameObject:
   m_Component:
   - component: {fileID: 470563558}
   m_Layer: 0
-  m_Name: pointGeneration1
+  m_Name: SpawnPoint1
   m_TagString: Untagged
   m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -178,7 +178,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 470563557}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -8, y: 4, z: 5}
+  m_LocalPosition: {x: -9.42, y: 4, z: 5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -196,7 +196,7 @@ GameObject:
   - component: {fileID: 514231188}
   - component: {fileID: 514231189}
   m_Layer: 0
-  m_Name: GenerationEnemy
+  m_Name: Spawner
   m_TagString: Untagged
   m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -210,7 +210,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 514231187}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: 8.82}
+  m_LocalPosition: {x: -16.53, y: 2.5, z: -1.11}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -226,7 +226,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 514231187}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5655cf15d8b2e0d448cfccd2cb9d015c, type: 3}
+  m_Script: {fileID: 11500000, guid: 88cf078b85bdffd44aba8ca3897d4b41, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _enemy: {fileID: 6321497631234576496, guid: bc31480df6ced9348b46f360fa5a0c0d, type: 3}
@@ -235,7 +235,8 @@ MonoBehaviour:
   - {fileID: 518267192}
   - {fileID: 860445678}
   - {fileID: 176742505}
-  _numberEnemy: 100
+  _numberEnemy: 10
+  _delay: 2
 --- !u!1 &518267191
 GameObject:
   m_ObjectHideFlags: 0
@@ -246,7 +247,7 @@ GameObject:
   m_Component:
   - component: {fileID: 518267192}
   m_Layer: 0
-  m_Name: pointGeneration2
+  m_Name: SpawnPoint2
   m_TagString: Untagged
   m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -260,7 +261,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 518267191}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5, y: 4, z: 5}
+  m_LocalPosition: {x: -0.62, y: 4, z: 26.38}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -371,7 +372,7 @@ GameObject:
   m_Component:
   - component: {fileID: 860445678}
   m_Layer: 0
-  m_Name: pointGeneration3
+  m_Name: SpawnPoint3
   m_TagString: Untagged
   m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -385,7 +386,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 860445677}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1, y: 4, z: 10}
+  m_LocalPosition: {x: 6.82, y: 4, z: 5.05}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
